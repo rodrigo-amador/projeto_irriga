@@ -11,7 +11,7 @@ class OpenWeatherJob {
       })
 
       // Roda a primeira vez quando inicia o projeto
-      // await this.run()
+      await this.run()
     } catch (error) {
       logger.error(`[${new Date()}] [OpenWeatherJob.init] -> ${error.message}`)
     }
