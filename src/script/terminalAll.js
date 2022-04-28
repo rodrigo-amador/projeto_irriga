@@ -2,7 +2,7 @@ import Database from '../config/dbBoot'
 import CitiesController from '../controllers/cities'
 import logger from '../config/logger'
 
-// Função responsavel por rodar o script que vai checar o clima de todas as cidades no banco 
+// Função responsavel por rodar o script que vai checar o clima de todas as cidades no banco
 class TerminalAllScript {
   constructor () {
     this.checkAllWeather()
