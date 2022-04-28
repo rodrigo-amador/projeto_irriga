@@ -1,0 +1,35 @@
+{
+  "name": "projeto_irriga",
+  "version": "1.0.0",
+  "description": "Projeto para etapa de teste tecnico",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "babel-node ./src/test/index.test.js",
+    "start": "nodemon --exec babel-node ./src/server.js",
+    "terminal-all": "babel-node ./src/script/terminalAll.js",
+    "terminal-one": "babel-node ./src/script/terminalOne.js",
+    "standard": "npx standard"
+  },
+  "author": "Rodrigo A M Magalhães",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15",
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "axios": "^0.27.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "fs": "^0.0.1-security",
+    "mysql2": "^2.3.3",
+    "node-cron": "^3.0.0",
+    "sequelize": "^6.19.0",
+    "tape": "^5.5.3",
+    "winston": "^3.7.2"
+  }
+}
