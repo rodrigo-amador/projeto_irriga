@@ -14,7 +14,7 @@ class CitiesController {
           return logger.error(`[${new Date()}] [CitiesController.checkAllWeather] -> Model Cities - Register id '${citie.id}' incomplete, please update with Latitude/Longitude`)
         }
 
-        WeatherController.getWeather(citie)
+        return WeatherController.getWeather(citie)
       })
     } catch (error) {
       logger.error(`[${new Date()}] [CitiesController.checkAllWeather] -> ${error.message}`)

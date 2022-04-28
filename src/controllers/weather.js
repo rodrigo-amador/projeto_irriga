@@ -14,7 +14,7 @@ class WeatherController {
       timeNow.setHours(timeNow.getHours() + citie.gmt)
 
       // Cria o registro no BD
-      Weather.create({
+      return Weather.create({
         cities_id: citie.id,
         time_now: timeNow,
         temperature_now: returnWeather.main.temp,
