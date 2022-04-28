@@ -2,7 +2,7 @@ import Database from '../config/dbBoot'
 import CitiesController from '../controllers/cities'
 import logger from '../config/logger'
 
-// Função responsavel por rodar o script que vai checar o clima de uma cidade especifica, especificada pelo id fornecido ao rodar o script 
+// Função responsavel por rodar o script que vai checar o clima de uma cidade especifica, especificada pelo id fornecido ao rodar o script
 class TerminalOneController {
   constructor () {
     this.checkOneWeather()
