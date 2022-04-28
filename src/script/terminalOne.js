@@ -12,7 +12,7 @@ class TerminalOneController {
     try {
       if (process.argv.length === 3) {
         await new Database().init()
-        CitiesController.checkOneWeather(parseInt(process.argv[2]))
+        return CitiesController.checkOneWeather(parseInt(process.argv[2]))
       } else {
         throw new Error('ID not send')
       }

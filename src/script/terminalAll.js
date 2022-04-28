@@ -11,7 +11,7 @@ class TerminalAllScript {
   async checkAllWeather () {
     try {
       await new Database().init()
-      CitiesController.checkAllWeather()
+      return CitiesController.checkAllWeather()
     } catch (error) {
       logger.error(`[${new Date()}] [TerminalController.checkAllWeather] -> ${error.message}`)
     }
