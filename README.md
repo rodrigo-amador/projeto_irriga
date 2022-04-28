@@ -36,7 +36,7 @@ Demais informações
     
     * Hoje o registro 4 "Três de Maio" não contem latitude/longitude, impossibilitando a pesquisa na API, uma outra rota permitia a pesquisa da posição geografica e depois a chamada da API de tempo, mas para testar o LOG foi feito somente a criação na pasta logs/error.log
     
-    * O arquivo banco_irriga_completo.sql com as queries para insert no banco também contem a criação (caso não exista) schema e da tabela de cities
+    * O arquivo bd_irriga.sql com as queries para insert no banco também contem a criação (caso não exista) schema e da tabela de cities
     
     * Projeto desenvolvido em node v12.13.0 e npm 8.4.1
     
