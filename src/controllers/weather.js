@@ -2,8 +2,7 @@ import Weather from '../models/weather'
 import OpenWeatherProvider from '../providers/openWeather'
 import logger from '../config/logger'
 
-class WeatherController{
-
+class WeatherController {
   // Função responsavel por chamar o Provider getWeather e criar o registro no BD com o retorno do provider
   async getWeather (citie) {
     try {
