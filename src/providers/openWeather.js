@@ -6,7 +6,7 @@ class OpenWeatherProvider {
     try {
       /**
        * Constante responsavel por popular os parametros que serão enviados a API do OpenWeather
-       * @latitude string que vem do registro da cidade 
+       * @latitude string que vem do registro da cidade
        * @longitude string que vem do registro da cidade
        * @appid secret key fornecida na documentação da Irriga
        * @units string que informa o tipo de retorno para os campos de unidade (metric da o retorno: temperatura em celsius e velocidade em m/s)
